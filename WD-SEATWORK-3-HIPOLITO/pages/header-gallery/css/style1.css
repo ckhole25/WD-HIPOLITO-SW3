@@ -1,0 +1,618 @@
+    /* style1.css */
+    body, ul, li, a {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header1 {
+        background: linear-gradient(90deg, #ff7e5f, #feb47b);
+        color: white;
+        padding: 10px 0;
+    }
+
+    .header1 .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header1 .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .header1 nav ul {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .header1 nav ul li a {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .header1 nav ul li a i {
+        font-size: 1rem;
+    }
+
+    .mainheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: black;
+      }
+      
+      .mainheader a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .mainheader h1 {
+        margin: 0;
+        font-size: 1.5em;
+        color: #fff;
+      }
+/* style2.css */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header2 {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+.header2 .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header2 .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header2 nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header2 nav ul li a {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header2 nav ul li a i {
+    font-size: 1rem;
+    background: white;
+    color: #333;
+    border-radius: 50%;
+    padding: 5px;
+}
+/* style3.css */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header3 {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header3 .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header3 .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header3 nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header3 nav ul li a {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header3 nav ul li a i {
+    font-size: 1rem;
+}
+
+.header4 {
+    background-color: grey; 
+    color: black;
+    padding: 10px 0;
+}
+
+.header4 .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header4 .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.header4 nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header4 nav ul li a {
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .search-input {
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    width: 200px;
+  }
+
+  .search-button {
+    padding: 0.5rem;
+    border: 1px solid white;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+
+  .header5 {
+    background-color: aliceblue;
+    color: black;
+    padding: 10px 0;
+  }
+
+  .header5 .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header5 .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .header5 .logo-img {
+    width: 10vw;
+    height: 8vh;
+    margin: 0 20px;
+  }
+
+  .header5 nav ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .header5 nav ul li a {
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.headerOne {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.headerOne .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerOne .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.headerOne nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.headerOne nav ul li {
+    position: relative;
+}
+
+.headerOne nav ul li a {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.headerOne nav ul li a i {
+    font-size: 1rem;
+}
+
+.headerOne nav ul li a::before,
+.headerOne nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+}
+
+.headerOne nav ul li a:hover {
+    color: #000; /* Change color on hover */
+    transform: translateY(-3px); /* Move the link up slightly on hover */
+}
+
+.headerOne nav ul li a:hover::before,
+.headerOne nav ul li a:hover::after {
+    width: 100%;
+}
+
+.headerOne nav ul li a::after {
+    right: 0; /* Adjust position for the ::after pseudo-element */
+}
+
+.headerOne nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* style.css */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.headerTwo {
+    background-color: #3F51B5;
+    color: white;
+    padding: 10px 0;
+}
+
+.headerTwo .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTwo .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.headerTwo nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.headerTwo nav ul li {
+    position: relative;
+}
+
+.headerTwo nav ul li a {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    position: relative;
+    transition: transform 0.3s ease, color 0.3s ease; /* Added transition for color */
+}
+
+.headerTwo nav ul li a:hover {
+    transform: scale(1.1);
+    color: #FFEB3B; /* Change color on hover */
+}
+
+/* style.css */
+
+/* Reset default styles */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header style */
+.headerThree {
+    background-color: black; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 0; /* Padding top and bottom */
+}
+
+.headerThree .container {
+    width: 90%; /* Width of the container */
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center vertically */
+}
+
+.headerThree .logo {
+    width: 100px; /* Adjust width of the logo */
+    height: 50px; /* Adjust height of the logo */
+    background-color: #fff; /* White background for the logo */
+    /* You can add background image or text logo styles here */
+}
+
+.headerThree nav ul {
+    display: flex; /* Flexbox for navigation items */
+    gap: 20px; /* Gap between navigation items */
+}
+
+.headerThree nav ul li {
+    position: relative; /* Position relative for pseudo element */
+}
+
+.headerThree nav ul li a {
+    color: white; /* White text color */
+    font-weight: bold; /* Bold text */
+    padding: 10px 15px; /* Padding for each nav item */
+    position: relative; /* Position relative for pseudo element */
+    transition: transform 0.3s ease; /* Transition effect */
+}
+
+/* Hover effect on nav items */
+.headerThree nav ul li a:hover {
+    transform: translateY(-3px); /* Move text 3px up on hover */
+}
+
+/* Animation effects on nav items */
+.headerThree nav ul li:nth-child(1) a {
+    animation: fadeInUp 1s ease forwards;
+}
+
+.headerThree nav ul li:nth-child(2) a {
+    animation: fadeInUp 1s ease 0.2s forwards;
+}
+
+.headerThree nav ul li:nth-child(3) a {
+    animation: fadeInUp 1s ease 0.4s forwards;
+}
+
+.headerThree nav ul li:nth-child(4) a {
+    animation: fadeInUp 1s ease 0.6s forwards;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Reset and basic styling */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerFour {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.headerFour .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.headerFour nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.headerFour nav ul li {
+    position: relative;
+}
+
+.headerFour nav ul li a {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    position: relative;
+    transition: background-color 0.3s ease; /* Add transition for background-color */
+}
+
+/* New hover effect */
+.headerFour nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Lighten background color on hover */
+}
+
+
+.headerFive nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.headerFive nav ul li {
+    position: relative;
+}
+
+.headerFive nav ul li a {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 20px;
+    position: relative;
+    transition: transform 0.2s ease-in-out; /* Basic transition */
+}
+
+/* Navigation animations */
+
+.headerFive nav ul li:nth-child(1) a:hover {
+    color: #E7484F; /* Animation color */
+    animation: rainbowAnimation 1s infinite alternate;
+}
+
+.headerFive nav ul li:nth-child(2) a:hover {
+    color: #F68B1D; /* Animation color */
+    animation: rainbowAnimation 1s infinite alternate;
+}
+
+.headerFive nav ul li:nth-child(3) a:hover {
+    color: #FCED00; /* Animation color */
+    animation: rainbowAnimation 1s infinite alternate;
+}
+
+.headerFive nav ul li:nth-child(4) a:hover {
+    color: #009E4F; /* Animation color */
+    animation: rainbowAnimation 1s infinite alternate;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        text-shadow: 0 0 10px #E7484F, 0 0 20px #E7484F, 0 0 30px #E7484F, 0 0 40px #F68B1D, 0 0 70px #F68B1D, 0 0 80px #F68B1D, 0 0 100px #FCED00, 0 0 150px #FCED00, 0 0 200px #FCED00;
+    }
+    100% {
+        text-shadow: 0 0 5px #E7484F, 0 0 10px #E7484F, 0 0 15px #E7484F, 0 0 20px #F68B1D, 0 0 35px #F68B1D, 0 0 40px #F68B1D, 0 0 50px #FCED00, 0 0 75px #FCED00, 0 0 100px #FCED00;
+    }
+}

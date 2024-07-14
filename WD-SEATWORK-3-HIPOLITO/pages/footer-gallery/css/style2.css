@@ -1,0 +1,897 @@
+.main-header a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+  }
+
+/* Footer Design 1 */
+.footer1 {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer1 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer1 .footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer1 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer1 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer1 ul li {
+    margin-bottom: 10px;
+}
+
+.footer1 ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer1 ul li a:hover {
+    color: #f68b1d;
+}
+
+/* Footer Design 3 */
+.footer3 {
+    background-color: black;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer3 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer3 .footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer3 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer3 p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer3 ul li {
+    margin-bottom: 10px;
+}
+
+.footer3 ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer3 ul li a:hover {
+    color: yellow;
+}
+
+.footer3 form {
+    margin-top: 20px;
+}
+
+.footer3 form input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer3 form button {
+    padding: 10px 20px;
+    background-color: #f68b1d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer3 form button:hover {
+    background-color: #e7484f;
+}
+
+/* Footer Design 2 */
+.footer2 {
+    background-color: lightblue;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2 .footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer2 ul li {
+    margin-bottom: 10px;
+}
+
+.footer2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer2 ul li a:hover {
+    color: #f68b1d;
+}
+
+.footer2 .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer2 .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footer2 .social-links a:hover {
+    color: #f68b1d;
+}
+
+.footer4 {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer4-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer4-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer4-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer4-section p, .footer4-section ul {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.footer4-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer4-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer4-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer4-section ul li a:hover {
+    color: #FCED00; /* Yellow color on hover */
+}
+
+.footer4-section .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #FCED00; /* Yellow color on hover */
+}
+
+.btn-appointment {
+    display: inline-block;
+    background-color: #FCED00; /* Yellow color */
+    color: #333; /* Dark text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-appointment:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #FCED00; /* Yellow text on hover */
+}
+
+/* Footer styling */
+.footer-gaming {
+    position: relative;
+    color: black;
+    padding: 40px 0;
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../footer-gallery/img/wallpaper.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3; /* Darken the opacity for better visibility */
+    z-index: -1; /* Place behind content */
+}
+
+.footer-gaming .container {
+    max-width: 1200px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center align container */
+    padding: 0 20px; /* Add padding for content */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative; /* Ensure container covers the background */
+}
+
+.footer-gaming .footer-section {
+    flex: 1 1 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.footer-gaming h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-gaming p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.footer-gaming ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-gaming ul li {
+    margin-bottom: 10px;
+}
+
+.footer-gaming ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-gaming ul li a:hover {
+    color: black; /* Change to your highlight color */
+}
+
+.footer-gaming .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-gaming .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-gaming .social-links a:hover {
+    color: black; /* Change to your highlight color */
+}
+
+.footer-gaming .btn-signup,
+.footer-gaming .btn-register {
+    display: inline-block;
+    background-color: white; /* Change to your button color */
+    color: #333; /* Change to your button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-gaming .btn-signup:hover,
+.footer-gaming .btn-register:hover {
+    background-color: black; /* Change to your button hover color */
+    color: white; /* Keep button text color */
+}
+
+/* Footer Gallery for Salon */
+.footer-salon {
+    background-color: transparent;
+    background-image: url(../../footer-gallery/img/salon.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    position: relative; /* Ensure background covers entire footer */
+}
+
+.footer-salon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for background image */
+}
+
+.footer-salon .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: relative; /* Ensure container covers the background */
+    z-index: 1; /* Place container above background overlay */
+}
+
+.footer-salon .footer-section {
+    flex: 1 1 25%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-salon h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-salon p, .footer-salon ul {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-salon ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-salon ul li {
+    margin-bottom: 10px;
+}
+
+.footer-salon ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: inline-block;
+    position: relative;
+}
+
+.footer-salon ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: white; /* Yellow underline color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.footer-salon ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.footer-salon .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-salon .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-salon .social-links a:hover {
+    color: #FCED00; /* Yellow hover color */
+}
+
+.btn-book-now {
+    display: inline-block;
+    background-color: white; /* Yellow button color */
+    color: #333; /* Button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 15px; /* Adjust spacing */
+}
+
+.btn-book-now:hover {
+    background-color: transparent; /* Yellow hover color */
+    color: white; /* Keep button text color */
+}
+
+/* Footer Gallery 3 */
+.footer-gallery3 {
+    background-color: transparent;
+    background-image: url(../../footer-gallery/img/background.jpg);
+    color: black;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-gallery3 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-gallery3 .footer-section {
+    flex: 1 1 25%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-gallery3 h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-gallery3 p, .footer-gallery3 ul {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-gallery3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-gallery3 ul li {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-gallery3 ul li:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.footer-gallery3 ul li:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.footer-gallery3 ul li:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.footer-gallery3 ul li:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
+.footer-gallery3:hover ul li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer-gallery3 ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-gallery3 ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black; /* Yellow underline color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.footer-gallery3 ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.footer-gallery3 .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-gallery3 .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-gallery4 {
+    background-color: transparent;
+    background-image: url('../../footer-gallery/img/summer.jpg');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    background-position: center; /* Centers the background image */
+    color: #fff;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-gallery4 .container {
+    max-width: 1200px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center align container */
+    padding: 0 20px; /* Add padding for content */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-gallery4 .footer-section {
+    flex: 1 1 25%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-gallery4 h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer-gallery4 p,
+.footer-gallery4 ul {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer-gallery4 .ul-container {
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.footer-gallery4 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-gallery4 ul li {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-gallery4 ul li:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.footer-gallery4 ul li:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.footer-gallery4 ul li:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.footer-gallery4 ul li:nth-child(4) {
+    transition-delay: 0.4s;
+}
+
+.footer-gallery4:hover ul li {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.footer-gallery4 ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-gallery4 ul li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: blue; /* Yellow underline color */
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.footer-gallery4 ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.footer-gallery4 .social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-gallery4 .social-links a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-gallery4 .social-links a:hover {
+    color: black; /* Yellow hover color */
+}
+
+.footer-policy {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-policy .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-policy .footer-section {
+    flex: 1 1 25%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-policy h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: black; /* Added missing semicolon */
+    position: relative;
+}
+
+.footer-policy h3::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 2px;
+    background-color: #f0f0f0; /* Match background color of .footer-policy */
+    transition: width 0.3s ease;
+}
+
+.footer-policy h3:hover::after {
+    width: 100%;
+}
+
+.footer-policy ul {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.footer-policy:hover ul {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.footer-policy ul li {
+    margin-bottom: 10px;
+}
+
+.footer-policy ul li a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.footer-policy ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent; /* Initially transparent */
+    transition: background-color 0.3s ease;
+}
+
+.footer-policy ul li a:hover::before {
+    background-color: black; /* Yellow underline on hover */
+}
+
+.footer-policy .social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-policy .social-links a {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-policy .social-links a:hover {
+    color: #FCED00; /* Yellow hover color */
+}
+
+.footer-privacy {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.footer-privacy .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-privacy .footer-section {
+    flex: 1 1 20%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.footer-privacy h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: black;
+    position: relative;
+}
+
+.footer-privacy ul {
+    list-style: none;
+    padding: 0;
+    opacity: 0;
+    transform: rotateX(90deg);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.footer-privacy:hover ul {
+    opacity: 1;
+    transform: rotateX(0deg);
+}
+
+.footer-privacy ul li {
+    margin-bottom: 10px;
+}
+
+.footer-privacy ul li a {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.footer-privacy ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.footer-privacy ul li a:hover::before {
+    background-color: black;
+}
+
+.footer-privacy .btn-email {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    animation: pulse 1s infinite;
+}
+
+.footer-privacy .btn-email:hover {
+    background-color: #555;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
